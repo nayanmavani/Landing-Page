@@ -1,12 +1,10 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
-import './App.css';
+import Header from '../src/components/Header/header';
 
 function App() {
   return (
     <div className="App">
-      <Row></Row>
-     
+      <Header />
     </div>
   );
 }
